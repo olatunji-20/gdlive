@@ -1,9 +1,9 @@
 <template>
   <main class="bg-[#4D4D4D] w-[100%] h-[auto] flex flex-col justify-start pt-12 pb-72 md:flex-row md:justify-center md:pb-48">
-    <div class="w-[100%] h-[400px] text-white px-4 md:w-[40%] py-12 md:h-[550px] md:px-8 md:pt-20">
+    <div class="w-[100%] h-[auto] text-white px-4 md:w-[40%] py-12 md:h-[550px] md:px-8 md:pt-20">
 
         <div class="w-[100%] h-[130px]">
-            <h1 class="text-[42px] leading-14 text-gray-50 font-bold">
+            <h1 class="text-[36px] md:text-[42px] leading-14 text-gray-50 font-bold">
                 <vue-typewriter-effect :strings="'Unfiltered, Unedited Stories'" />
             </h1>
         </div>
@@ -11,10 +11,10 @@
         <p class="pt-4">We're committed to transparency and the use of our survey technology to collect and share real-time updates and stories
             in this live newsfeed.
         </p>
-        <p class="font-bold pt-8 text-[#6B9B8F]" style="font-family: jackquard 24;">Learn about how we collect stories <span><i class="material-symbols-outlined relative top-2 font-bold">start</i></span></p>
+        <p class="font-bold pt-8 text-[#6B9B8F]">Learn about how we collect stories <span><i class="material-symbols-outlined relative top-2 font-bold">start</i></span></p>
     </div>
     <div class="w-[100%] h-[420px] md:w-[55%] md:h-[550px]">
-        <div class="w-[400px] h-[400px] overflow-hidden m-[auto] relative flex justify-center items-center md:w-[540px] md:h-[540px]">
+        <div class="w-[100%] h-[400px] overflow-hidden m-[auto] relative flex justify-center items-center md:w-[540px] md:h-[540px]">
 
             <div class="zig border-2 border-green-800 bg-[#6B9B8F] rounded-full h-[10px] w-[10px] absolute"></div>
 
